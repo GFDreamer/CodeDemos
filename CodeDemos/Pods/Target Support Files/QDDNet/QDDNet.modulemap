@@ -1,0 +1,6 @@
+framework module QDDNet {
+  umbrella header "QDDNet-umbrella.h"
+
+  export *
+  module * { export * }
+}
