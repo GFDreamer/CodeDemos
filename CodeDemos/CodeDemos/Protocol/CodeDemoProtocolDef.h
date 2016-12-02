@@ -37,4 +37,6 @@
 + (NSString *)pImagePicker;
 /** CALayer*/
 + (NSString *)pCALayer;
+/** 图片多选*/
++ (NSString *)pImageMultiselect;
 @end

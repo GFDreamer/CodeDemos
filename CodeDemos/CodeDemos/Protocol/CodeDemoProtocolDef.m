@@ -78,4 +78,9 @@
     return @"CALayer CAShapeLayer";
 }
 
++ (NSString *)pImageMultiselect
+{
+    return @"图片多选";
+}
+
 @end
