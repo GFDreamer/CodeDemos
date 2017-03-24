@@ -1,5 +1,5 @@
 //
-//  AnimalExamplesViewController.h
+//  JiSuTuViewController.h
 //  CodeDemos
 //
 //  Created by qddios2 on 17/3/24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AnimalExamplesViewController : UIViewController<CodeDemosProtocol>
+@interface JiSuTuViewController : UIViewController
 
 @end

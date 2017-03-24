@@ -42,6 +42,15 @@
 		BC36648F1DB4B216003B9F2E /* LGFImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC36648D1DB4B216003B9F2E /* LGFImagePickerViewController.m */; };
 		BCCFD83E1E84B59600676B74 /* AnimalExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */; };
 		BCCFD83F1E84B59600676B74 /* AnimalExamplesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */; };
+		BCCFD8421E84BA1000676B74 /* TuCengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD8411E84BA1000676B74 /* TuCengViewController.m */; };
+		BCCFD8451E84C79200676B74 /* JiSuTuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD8441E84C79200676B74 /* JiSuTuViewController.m */; };
+		BCCFD8471E84CA2900676B74 /* sufei.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD8461E84CA2900676B74 /* sufei.jpeg */; };
+		BCCFD84A1E84E92D00676B74 /* TuCengJiHeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD8491E84E92D00676B74 /* TuCengJiHeViewController.m */; };
+		BCCFD84E1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD84C1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.m */; };
+		BCCFD84F1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD84D1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.xib */; };
+		BCCFD8511E84FEE200676B74 /* qr_msg_pirvate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD8501E84FEE200676B74 /* qr_msg_pirvate@2x.png */; };
+		BCCFD8551E8509B000676B74 /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD8531E8509B000676B74 /* Transform3DViewController.m */; };
+		BCCFD8561E8509B000676B74 /* Transform3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD8541E8509B000676B74 /* Transform3DViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +138,20 @@
 		BCCFD83B1E84B59600676B74 /* AnimalExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalExamplesViewController.h; sourceTree = "<group>"; };
 		BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalExamplesViewController.m; sourceTree = "<group>"; };
 		BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalExamplesViewController.xib; sourceTree = "<group>"; };
+		BCCFD8401E84BA1000676B74 /* TuCengViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuCengViewController.h; sourceTree = "<group>"; };
+		BCCFD8411E84BA1000676B74 /* TuCengViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuCengViewController.m; sourceTree = "<group>"; };
+		BCCFD8431E84C79200676B74 /* JiSuTuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JiSuTuViewController.h; sourceTree = "<group>"; };
+		BCCFD8441E84C79200676B74 /* JiSuTuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JiSuTuViewController.m; sourceTree = "<group>"; };
+		BCCFD8461E84CA2900676B74 /* sufei.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sufei.jpeg; sourceTree = "<group>"; };
+		BCCFD8481E84E92D00676B74 /* TuCengJiHeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuCengJiHeViewController.h; sourceTree = "<group>"; };
+		BCCFD8491E84E92D00676B74 /* TuCengJiHeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuCengJiHeViewController.m; sourceTree = "<group>"; };
+		BCCFD84B1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiJueXiaoGuoViewController.h; sourceTree = "<group>"; };
+		BCCFD84C1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiJueXiaoGuoViewController.m; sourceTree = "<group>"; };
+		BCCFD84D1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShiJueXiaoGuoViewController.xib; sourceTree = "<group>"; };
+		BCCFD8501E84FEE200676B74 /* qr_msg_pirvate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_msg_pirvate@2x.png"; sourceTree = "<group>"; };
+		BCCFD8521E8509B000676B74 /* Transform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform3DViewController.h; sourceTree = "<group>"; };
+		BCCFD8531E8509B000676B74 /* Transform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform3DViewController.m; sourceTree = "<group>"; };
+		BCCFD8541E8509B000676B74 /* Transform3DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Transform3DViewController.xib; sourceTree = "<group>"; };
 		DFE8451B6337BB566A55B06D /* Pods-CodeDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDemos/Pods-CodeDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		EB5AA7768ADEC5FABD18AD14 /* Pods_CodeDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -395,9 +418,23 @@
 		BCCFD83A1E84B54700676B74 /* 动画解析 */ = {
 			isa = PBXGroup;
 			children = (
+				BCCFD8501E84FEE200676B74 /* qr_msg_pirvate@2x.png */,
+				BCCFD8461E84CA2900676B74 /* sufei.jpeg */,
 				BCCFD83B1E84B59600676B74 /* AnimalExamplesViewController.h */,
 				BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */,
 				BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */,
+				BCCFD8401E84BA1000676B74 /* TuCengViewController.h */,
+				BCCFD8411E84BA1000676B74 /* TuCengViewController.m */,
+				BCCFD8431E84C79200676B74 /* JiSuTuViewController.h */,
+				BCCFD8441E84C79200676B74 /* JiSuTuViewController.m */,
+				BCCFD8481E84E92D00676B74 /* TuCengJiHeViewController.h */,
+				BCCFD8491E84E92D00676B74 /* TuCengJiHeViewController.m */,
+				BCCFD84B1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.h */,
+				BCCFD84C1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.m */,
+				BCCFD84D1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.xib */,
+				BCCFD8521E8509B000676B74 /* Transform3DViewController.h */,
+				BCCFD8531E8509B000676B74 /* Transform3DViewController.m */,
+				BCCFD8541E8509B000676B74 /* Transform3DViewController.xib */,
 			);
 			path = "动画解析";
 			sourceTree = "<group>";
@@ -509,11 +546,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3664761DB4B1DF003B9F2E /* udeleteicon.png in Resources */,
+				BCCFD8511E84FEE200676B74 /* qr_msg_pirvate@2x.png in Resources */,
 				BC36645C1DB4B1B4003B9F2E /* 123.png in Resources */,
+				BCCFD8471E84CA2900676B74 /* sufei.jpeg in Resources */,
 				BC3664871DB4B20E003B9F2E /* ios-.pdf in Resources */,
 				BC3664111DB4ABC9003B9F2E /* LaunchScreen.storyboard in Resources */,
+				BCCFD8561E8509B000676B74 /* Transform3DViewController.xib in Resources */,
 				BC36640E1DB4ABC9003B9F2E /* Assets.xcassets in Resources */,
 				BCCFD83F1E84B59600676B74 /* AnimalExamplesViewController.xib in Resources */,
+				BCCFD84F1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.xib in Resources */,
 				BC36640C1DB4ABC9003B9F2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,14 +628,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCFD8421E84BA1000676B74 /* TuCengViewController.m in Sources */,
 				BC3664501DB4B195003B9F2E /* BarcodeViewController.m in Sources */,
+				BCCFD8451E84C79200676B74 /* JiSuTuViewController.m in Sources */,
 				BC3664461DB4B180003B9F2E /* NetworkManager.m in Sources */,
 				BC3664531DB4B195003B9F2E /* ScannerBarcodeViewController.m in Sources */,
 				BC36646B1DB4B1D8003B9F2E /* LGFLabel.m in Sources */,
 				BC3664061DB4ABC9003B9F2E /* AppDelegate.m in Sources */,
+				BCCFD84E1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.m in Sources */,
 				BC3664651DB4B1CB003B9F2E /* LGFCustomSearchBarViewController.m in Sources */,
 				BC36647B1DB4B1EA003B9F2E /* LGFLabelHTMLViewController.m in Sources */,
 				BC3664821DB4B1FD003B9F2E /* LGFUIBezierPathExample.m in Sources */,
+				BCCFD84A1E84E92D00676B74 /* TuCengJiHeViewController.m in Sources */,
+				BCCFD8551E8509B000676B74 /* Transform3DViewController.m in Sources */,
 				BC3664521DB4B195003B9F2E /* LGFCreateBarcodeManager.m in Sources */,
 				BC3664511DB4B195003B9F2E /* CreateBarcodeViewController.m in Sources */,
 				BC3664571DB4B1A2003B9F2E /* LGFHighLightKeyWordsViewController.m in Sources */,
@@ -755,6 +801,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CodeDemos/PrefixHeader.pch";
 				INFOPLIST_FILE = CodeDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.CodeDemos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -768,6 +815,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CodeDemos/PrefixHeader.pch";
 				INFOPLIST_FILE = CodeDemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.CodeDemos";
 				PRODUCT_NAME = "$(TARGET_NAME)";

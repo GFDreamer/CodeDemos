@@ -1,5 +1,5 @@
 //
-//  AnimalExamplesViewController.h
+//  Transform3DViewController.h
 //  CodeDemos
 //
 //  Created by qddios2 on 17/3/24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AnimalExamplesViewController : UIViewController<CodeDemosProtocol>
+@interface Transform3DViewController : UIViewController
 
 @end
