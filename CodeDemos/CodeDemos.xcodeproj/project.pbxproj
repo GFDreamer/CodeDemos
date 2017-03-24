@@ -40,6 +40,8 @@
 		BC3664881DB4B20E003B9F2E /* LGFilePathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3664861DB4B20E003B9F2E /* LGFilePathViewController.m */; };
 		BC36648E1DB4B216003B9F2E /* LGFImagePickerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BC36648B1DB4B216003B9F2E /* LGFImagePickerUtil.m */; };
 		BC36648F1DB4B216003B9F2E /* LGFImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC36648D1DB4B216003B9F2E /* LGFImagePickerViewController.m */; };
+		BCCFD83E1E84B59600676B74 /* AnimalExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */; };
+		BCCFD83F1E84B59600676B74 /* AnimalExamplesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +126,9 @@
 		BC36648C1DB4B216003B9F2E /* LGFImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFImagePickerViewController.h; sourceTree = "<group>"; };
 		BC36648D1DB4B216003B9F2E /* LGFImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFImagePickerViewController.m; sourceTree = "<group>"; };
 		BC3664901DB4B2DD003B9F2E /* CodeDemosProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeDemosProtocol.h; sourceTree = "<group>"; };
+		BCCFD83B1E84B59600676B74 /* AnimalExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalExamplesViewController.h; sourceTree = "<group>"; };
+		BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalExamplesViewController.m; sourceTree = "<group>"; };
+		BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalExamplesViewController.xib; sourceTree = "<group>"; };
 		DFE8451B6337BB566A55B06D /* Pods-CodeDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDemos/Pods-CodeDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		EB5AA7768ADEC5FABD18AD14 /* Pods_CodeDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -251,6 +256,7 @@
 		BC3664391DB4AC9E003B9F2E /* demos */ = {
 			isa = PBXGroup;
 			children = (
+				BCCFD83A1E84B54700676B74 /* 动画解析 */,
 				BC3664891DB4B216003B9F2E /* 系统相册调用 */,
 				BC3664831DB4B20E003B9F2E /* 沙盒机制和文件读取 */,
 				BC36647C1DB4B1FD003B9F2E /* UIBezierPath */,
@@ -386,6 +392,16 @@
 			path = "系统相册调用";
 			sourceTree = "<group>";
 		};
+		BCCFD83A1E84B54700676B74 /* 动画解析 */ = {
+			isa = PBXGroup;
+			children = (
+				BCCFD83B1E84B59600676B74 /* AnimalExamplesViewController.h */,
+				BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */,
+				BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */,
+			);
+			path = "动画解析";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -497,6 +513,7 @@
 				BC3664871DB4B20E003B9F2E /* ios-.pdf in Resources */,
 				BC3664111DB4ABC9003B9F2E /* LaunchScreen.storyboard in Resources */,
 				BC36640E1DB4ABC9003B9F2E /* Assets.xcassets in Resources */,
+				BCCFD83F1E84B59600676B74 /* AnimalExamplesViewController.xib in Resources */,
 				BC36640C1DB4ABC9003B9F2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,6 +609,7 @@
 				BC36648E1DB4B216003B9F2E /* LGFImagePickerUtil.m in Sources */,
 				BC3664881DB4B20E003B9F2E /* LGFilePathViewController.m in Sources */,
 				BC3664031DB4ABC9003B9F2E /* main.m in Sources */,
+				BCCFD83E1E84B59600676B74 /* AnimalExamplesViewController.m in Sources */,
 				BC3664811DB4B1FD003B9F2E /* LGFBezirePathView.m in Sources */,
 				BC3664661DB4B1CB003B9F2E /* LGFSearchBar.m in Sources */,
 			);
