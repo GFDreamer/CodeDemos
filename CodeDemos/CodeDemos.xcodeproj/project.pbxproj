@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D8F4F1E4904882FF8245E77 /* Pods_CodeDemos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5AA7768ADEC5FABD18AD14 /* Pods_CodeDemos.framework */; };
+		BC05DE2F1E8B50C400D0488A /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05DE2E1E8B50C400D0488A /* MyImageView.m */; };
 		BC3664031DB4ABC9003B9F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3664021DB4ABC9003B9F2E /* main.m */; };
 		BC3664061DB4ABC9003B9F2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3664051DB4ABC9003B9F2E /* AppDelegate.m */; };
 		BC36640C1DB4ABC9003B9F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC36640A1DB4ABC9003B9F2E /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 		BC3664881DB4B20E003B9F2E /* LGFilePathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3664861DB4B20E003B9F2E /* LGFilePathViewController.m */; };
 		BC36648E1DB4B216003B9F2E /* LGFImagePickerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BC36648B1DB4B216003B9F2E /* LGFImagePickerUtil.m */; };
 		BC36648F1DB4B216003B9F2E /* LGFImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC36648D1DB4B216003B9F2E /* LGFImagePickerViewController.m */; };
+		BCB16AF01E89F07E0062ACA5 /* BufferAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB16AEE1E89F07E0062ACA5 /* BufferAnimalViewController.m */; };
+		BCB16AF11E89F07E0062ACA5 /* BufferAnimalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB16AEF1E89F07E0062ACA5 /* BufferAnimalViewController.xib */; };
 		BCCFD83E1E84B59600676B74 /* AnimalExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */; };
 		BCCFD83F1E84B59600676B74 /* AnimalExamplesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */; };
 		BCCFD8421E84BA1000676B74 /* TuCengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD8411E84BA1000676B74 /* TuCengViewController.m */; };
@@ -51,6 +54,13 @@
 		BCCFD8511E84FEE200676B74 /* qr_msg_pirvate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD8501E84FEE200676B74 /* qr_msg_pirvate@2x.png */; };
 		BCCFD8551E8509B000676B74 /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFD8531E8509B000676B74 /* Transform3DViewController.m */; };
 		BCCFD8561E8509B000676B74 /* Transform3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCFD8541E8509B000676B74 /* Transform3DViewController.xib */; };
+		BCFB72CB1E88B1F200F5E01B /* YinShiAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB72C91E88B1F200F5E01B /* YinShiAnimalViewController.m */; };
+		BCFB72CC1E88B1F200F5E01B /* YinShiAnimalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFB72CA1E88B1F200F5E01B /* YinShiAnimalViewController.xib */; };
+		BCFB72D01E88E05E00F5E01B /* XianShiAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFB72CE1E88E05E00F5E01B /* XianShiAnimalViewController.m */; };
+		BCFB72D11E88E05E00F5E01B /* XianShiAnimalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFB72CF1E88E05E00F5E01B /* XianShiAnimalViewController.xib */; };
+		BCFB72D41E88E11500F5E01B /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BCFB72D21E88E11500F5E01B /* 1.jpeg */; };
+		BCFB72D51E88E11500F5E01B /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BCFB72D31E88E11500F5E01B /* 2.jpeg */; };
+		BCFB72D71E88E34600F5E01B /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BCFB72D61E88E34600F5E01B /* 3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +82,8 @@
 
 /* Begin PBXFileReference section */
 		87BDE24380C41477B359D0F7 /* Pods-CodeDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDemos/Pods-CodeDemos.release.xcconfig"; sourceTree = "<group>"; };
+		BC05DE2D1E8B50C400D0488A /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		BC05DE2E1E8B50C400D0488A /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		BC3663FE1DB4ABC9003B9F2E /* CodeDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3664021DB4ABC9003B9F2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC3664041DB4ABC9003B9F2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +147,9 @@
 		BC36648C1DB4B216003B9F2E /* LGFImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFImagePickerViewController.h; sourceTree = "<group>"; };
 		BC36648D1DB4B216003B9F2E /* LGFImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFImagePickerViewController.m; sourceTree = "<group>"; };
 		BC3664901DB4B2DD003B9F2E /* CodeDemosProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeDemosProtocol.h; sourceTree = "<group>"; };
+		BCB16AED1E89F07E0062ACA5 /* BufferAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferAnimalViewController.h; sourceTree = "<group>"; };
+		BCB16AEE1E89F07E0062ACA5 /* BufferAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferAnimalViewController.m; sourceTree = "<group>"; };
+		BCB16AEF1E89F07E0062ACA5 /* BufferAnimalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BufferAnimalViewController.xib; sourceTree = "<group>"; };
 		BCCFD83B1E84B59600676B74 /* AnimalExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalExamplesViewController.h; sourceTree = "<group>"; };
 		BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalExamplesViewController.m; sourceTree = "<group>"; };
 		BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimalExamplesViewController.xib; sourceTree = "<group>"; };
@@ -152,6 +167,15 @@
 		BCCFD8521E8509B000676B74 /* Transform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform3DViewController.h; sourceTree = "<group>"; };
 		BCCFD8531E8509B000676B74 /* Transform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform3DViewController.m; sourceTree = "<group>"; };
 		BCCFD8541E8509B000676B74 /* Transform3DViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Transform3DViewController.xib; sourceTree = "<group>"; };
+		BCFB72C81E88B1F200F5E01B /* YinShiAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinShiAnimalViewController.h; sourceTree = "<group>"; };
+		BCFB72C91E88B1F200F5E01B /* YinShiAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YinShiAnimalViewController.m; sourceTree = "<group>"; };
+		BCFB72CA1E88B1F200F5E01B /* YinShiAnimalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YinShiAnimalViewController.xib; sourceTree = "<group>"; };
+		BCFB72CD1E88E05E00F5E01B /* XianShiAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XianShiAnimalViewController.h; sourceTree = "<group>"; };
+		BCFB72CE1E88E05E00F5E01B /* XianShiAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XianShiAnimalViewController.m; sourceTree = "<group>"; };
+		BCFB72CF1E88E05E00F5E01B /* XianShiAnimalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XianShiAnimalViewController.xib; sourceTree = "<group>"; };
+		BCFB72D21E88E11500F5E01B /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		BCFB72D31E88E11500F5E01B /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		BCFB72D61E88E34600F5E01B /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
 		DFE8451B6337BB566A55B06D /* Pods-CodeDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDemos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDemos/Pods-CodeDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		EB5AA7768ADEC5FABD18AD14 /* Pods_CodeDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -420,6 +444,9 @@
 			children = (
 				BCCFD8501E84FEE200676B74 /* qr_msg_pirvate@2x.png */,
 				BCCFD8461E84CA2900676B74 /* sufei.jpeg */,
+				BCFB72D21E88E11500F5E01B /* 1.jpeg */,
+				BCFB72D31E88E11500F5E01B /* 2.jpeg */,
+				BCFB72D61E88E34600F5E01B /* 3.jpeg */,
 				BCCFD83B1E84B59600676B74 /* AnimalExamplesViewController.h */,
 				BCCFD83C1E84B59600676B74 /* AnimalExamplesViewController.m */,
 				BCCFD83D1E84B59600676B74 /* AnimalExamplesViewController.xib */,
@@ -435,6 +462,17 @@
 				BCCFD8521E8509B000676B74 /* Transform3DViewController.h */,
 				BCCFD8531E8509B000676B74 /* Transform3DViewController.m */,
 				BCCFD8541E8509B000676B74 /* Transform3DViewController.xib */,
+				BCFB72C81E88B1F200F5E01B /* YinShiAnimalViewController.h */,
+				BCFB72C91E88B1F200F5E01B /* YinShiAnimalViewController.m */,
+				BCFB72CA1E88B1F200F5E01B /* YinShiAnimalViewController.xib */,
+				BCFB72CD1E88E05E00F5E01B /* XianShiAnimalViewController.h */,
+				BCFB72CE1E88E05E00F5E01B /* XianShiAnimalViewController.m */,
+				BCFB72CF1E88E05E00F5E01B /* XianShiAnimalViewController.xib */,
+				BCB16AED1E89F07E0062ACA5 /* BufferAnimalViewController.h */,
+				BCB16AEE1E89F07E0062ACA5 /* BufferAnimalViewController.m */,
+				BCB16AEF1E89F07E0062ACA5 /* BufferAnimalViewController.xib */,
+				BC05DE2D1E8B50C400D0488A /* MyImageView.h */,
+				BC05DE2E1E8B50C400D0488A /* MyImageView.m */,
 			);
 			path = "动画解析";
 			sourceTree = "<group>";
@@ -550,12 +588,18 @@
 				BC36645C1DB4B1B4003B9F2E /* 123.png in Resources */,
 				BCCFD8471E84CA2900676B74 /* sufei.jpeg in Resources */,
 				BC3664871DB4B20E003B9F2E /* ios-.pdf in Resources */,
+				BCFB72D51E88E11500F5E01B /* 2.jpeg in Resources */,
+				BCFB72D11E88E05E00F5E01B /* XianShiAnimalViewController.xib in Resources */,
 				BC3664111DB4ABC9003B9F2E /* LaunchScreen.storyboard in Resources */,
+				BCFB72D41E88E11500F5E01B /* 1.jpeg in Resources */,
 				BCCFD8561E8509B000676B74 /* Transform3DViewController.xib in Resources */,
 				BC36640E1DB4ABC9003B9F2E /* Assets.xcassets in Resources */,
+				BCFB72CC1E88B1F200F5E01B /* YinShiAnimalViewController.xib in Resources */,
 				BCCFD83F1E84B59600676B74 /* AnimalExamplesViewController.xib in Resources */,
+				BCFB72D71E88E34600F5E01B /* 3.jpeg in Resources */,
 				BCCFD84F1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.xib in Resources */,
 				BC36640C1DB4ABC9003B9F2E /* Main.storyboard in Resources */,
+				BCB16AF11E89F07E0062ACA5 /* BufferAnimalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,12 +682,14 @@
 				BCCFD84E1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.m in Sources */,
 				BC3664651DB4B1CB003B9F2E /* LGFCustomSearchBarViewController.m in Sources */,
 				BC36647B1DB4B1EA003B9F2E /* LGFLabelHTMLViewController.m in Sources */,
+				BC05DE2F1E8B50C400D0488A /* MyImageView.m in Sources */,
 				BC3664821DB4B1FD003B9F2E /* LGFUIBezierPathExample.m in Sources */,
 				BCCFD84A1E84E92D00676B74 /* TuCengJiHeViewController.m in Sources */,
 				BCCFD8551E8509B000676B74 /* Transform3DViewController.m in Sources */,
 				BC3664521DB4B195003B9F2E /* LGFCreateBarcodeManager.m in Sources */,
 				BC3664511DB4B195003B9F2E /* CreateBarcodeViewController.m in Sources */,
 				BC3664571DB4B1A2003B9F2E /* LGFHighLightKeyWordsViewController.m in Sources */,
+				BCFB72CB1E88B1F200F5E01B /* YinShiAnimalViewController.m in Sources */,
 				BC36645D1DB4B1B4003B9F2E /* LGFResizableImageViewController.m in Sources */,
 				BC3664671DB4B1CB003B9F2E /* LGFUIButton.m in Sources */,
 				BC3664741DB4B1DF003B9F2E /* LGFCollectionCell.m in Sources */,
@@ -656,8 +702,10 @@
 				BC3664881DB4B20E003B9F2E /* LGFilePathViewController.m in Sources */,
 				BC3664031DB4ABC9003B9F2E /* main.m in Sources */,
 				BCCFD83E1E84B59600676B74 /* AnimalExamplesViewController.m in Sources */,
+				BCFB72D01E88E05E00F5E01B /* XianShiAnimalViewController.m in Sources */,
 				BC3664811DB4B1FD003B9F2E /* LGFBezirePathView.m in Sources */,
 				BC3664661DB4B1CB003B9F2E /* LGFSearchBar.m in Sources */,
+				BCB16AF01E89F07E0062ACA5 /* BufferAnimalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

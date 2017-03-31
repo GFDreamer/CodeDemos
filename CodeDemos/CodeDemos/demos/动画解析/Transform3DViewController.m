@@ -27,7 +27,7 @@
     CATransform3D transform1  = CATransform3DMakeRotation(M_PI_4, 0, 1, 0);
     self.image.layer.transform = transform1;
     
-    CATransform3D transform2  = CATransform3DMakeRotation(-M_PI_4, 0, 1, 0);
+    CATransform3D transform2  = CATransform3DMakeRotation(-M_PI_4, 1, 1, 1);
     self.image2.layer.transform = transform2;
     
 }

@@ -12,6 +12,9 @@
 #import "TuCengJiHeViewController.h"
 #import "ShiJueXiaoGuoViewController.h"
 #import "Transform3DViewController.h"
+#import "YinShiAnimalViewController.h"
+#import "XianShiAnimalViewController.h"
+#import "BufferAnimalViewController.h"
 @interface AnimalExamplesViewController ()
 
 @end
@@ -63,10 +66,17 @@
 
 //隐式动画
 - (IBAction)yinshiAnimalAction:(id)sender {
+    
+    YinShiAnimalViewController *tuVC = [[YinShiAnimalViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:tuVC animated:YES];
 }
 
 //显示动画
 - (IBAction)xianshiAnimalAction:(id)sender {
+    
+    XianShiAnimalViewController *tuVC = [[XianShiAnimalViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:tuVC animated:YES];
+    
 }
 
 //图层时间
@@ -74,7 +84,10 @@
 }
 
 //缓冲
-- (IBAction)huanchongAction:(id)sender {
+- (IBAction)huanchongAction:(id)sender
+{
+    BufferAnimalViewController *tuVC = [[BufferAnimalViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:tuVC animated:YES];
 }
 
 //基于定时器的动画
