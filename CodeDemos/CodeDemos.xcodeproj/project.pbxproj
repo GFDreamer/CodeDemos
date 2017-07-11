@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2B96CF1F14FF0D00F517AF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B96CE1F14FF0D00F517AF /* TestViewController.m */; };
+		1C2B96D21F14FF6100F517AF /* TestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B96D11F14FF6100F517AF /* TestItem.m */; };
+		1C2B96D51F15077300F517AF /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B96D41F15077300F517AF /* Item.m */; };
 		1D8F4F1E4904882FF8245E77 /* Pods_CodeDemos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5AA7768ADEC5FABD18AD14 /* Pods_CodeDemos.framework */; };
 		BC05DE2F1E8B50C400D0488A /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05DE2E1E8B50C400D0488A /* MyImageView.m */; };
 		BC3664031DB4ABC9003B9F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3664021DB4ABC9003B9F2E /* main.m */; };
@@ -81,6 +84,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C2B96CD1F14FF0D00F517AF /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1C2B96CE1F14FF0D00F517AF /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		1C2B96D01F14FF6100F517AF /* TestItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestItem.h; sourceTree = "<group>"; };
+		1C2B96D11F14FF6100F517AF /* TestItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestItem.m; sourceTree = "<group>"; };
+		1C2B96D31F15077300F517AF /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		1C2B96D41F15077300F517AF /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		87BDE24380C41477B359D0F7 /* Pods-CodeDemos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDemos.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDemos/Pods-CodeDemos.release.xcconfig"; sourceTree = "<group>"; };
 		BC05DE2D1E8B50C400D0488A /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		BC05DE2E1E8B50C400D0488A /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
@@ -223,6 +232,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1C2B96CC1F14FEEC00F517AF /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1C2B96CD1F14FF0D00F517AF /* TestViewController.h */,
+				1C2B96CE1F14FF0D00F517AF /* TestViewController.m */,
+				1C2B96D01F14FF6100F517AF /* TestItem.h */,
+				1C2B96D11F14FF6100F517AF /* TestItem.m */,
+				1C2B96D31F15077300F517AF /* Item.h */,
+				1C2B96D41F15077300F517AF /* Item.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		BC3663F51DB4ABC9003B9F2E = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +325,7 @@
 		BC3664391DB4AC9E003B9F2E /* demos */ = {
 			isa = PBXGroup;
 			children = (
+				1C2B96CC1F14FEEC00F517AF /* Test */,
 				BCCFD83A1E84B54700676B74 /* 动画解析 */,
 				BC3664891DB4B216003B9F2E /* 系统相册调用 */,
 				BC3664831DB4B20E003B9F2E /* 沙盒机制和文件读取 */,
@@ -484,12 +507,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC36642B1DB4ABC9003B9F2E /* Build configuration list for PBXNativeTarget "CodeDemos" */;
 			buildPhases = (
-				CD1DCB7FC212B010C58999B4 /* 📦 Check Pods Manifest.lock */,
+				CD1DCB7FC212B010C58999B4 /* [CP] Check Pods Manifest.lock */,
 				BC3663FA1DB4ABC9003B9F2E /* Sources */,
 				BC3663FB1DB4ABC9003B9F2E /* Frameworks */,
 				BC3663FC1DB4ABC9003B9F2E /* Resources */,
-				EF791977A9C9D95E98C84FBE /* 📦 Embed Pods Frameworks */,
-				AA1505697809EA5EE54004D2 /* 📦 Copy Pods Resources */,
+				EF791977A9C9D95E98C84FBE /* [CP] Embed Pods Frameworks */,
+				AA1505697809EA5EE54004D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -620,14 +643,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA1505697809EA5EE54004D2 /* 📦 Copy Pods Resources */ = {
+		AA1505697809EA5EE54004D2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,29 +658,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeDemos/Pods-CodeDemos-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD1DCB7FC212B010C58999B4 /* 📦 Check Pods Manifest.lock */ = {
+		CD1DCB7FC212B010C58999B4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		EF791977A9C9D95E98C84FBE /* 📦 Embed Pods Frameworks */ = {
+		EF791977A9C9D95E98C84FBE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -681,6 +704,7 @@
 				BC3664061DB4ABC9003B9F2E /* AppDelegate.m in Sources */,
 				BCCFD84E1E84F0BA00676B74 /* ShiJueXiaoGuoViewController.m in Sources */,
 				BC3664651DB4B1CB003B9F2E /* LGFCustomSearchBarViewController.m in Sources */,
+				1C2B96CF1F14FF0D00F517AF /* TestViewController.m in Sources */,
 				BC36647B1DB4B1EA003B9F2E /* LGFLabelHTMLViewController.m in Sources */,
 				BC05DE2F1E8B50C400D0488A /* MyImageView.m in Sources */,
 				BC3664821DB4B1FD003B9F2E /* LGFUIBezierPathExample.m in Sources */,
@@ -692,6 +716,7 @@
 				BCFB72CB1E88B1F200F5E01B /* YinShiAnimalViewController.m in Sources */,
 				BC36645D1DB4B1B4003B9F2E /* LGFResizableImageViewController.m in Sources */,
 				BC3664671DB4B1CB003B9F2E /* LGFUIButton.m in Sources */,
+				1C2B96D51F15077300F517AF /* Item.m in Sources */,
 				BC3664741DB4B1DF003B9F2E /* LGFCollectionCell.m in Sources */,
 				BC36648F1DB4B216003B9F2E /* LGFImagePickerViewController.m in Sources */,
 				BC3664771DB4B1DF003B9F2E /* ViewController.m in Sources */,
@@ -703,6 +728,7 @@
 				BC3664031DB4ABC9003B9F2E /* main.m in Sources */,
 				BCCFD83E1E84B59600676B74 /* AnimalExamplesViewController.m in Sources */,
 				BCFB72D01E88E05E00F5E01B /* XianShiAnimalViewController.m in Sources */,
+				1C2B96D21F14FF6100F517AF /* TestItem.m in Sources */,
 				BC3664811DB4B1FD003B9F2E /* LGFBezirePathView.m in Sources */,
 				BC3664661DB4B1CB003B9F2E /* LGFSearchBar.m in Sources */,
 				BCB16AF01E89F07E0062ACA5 /* BufferAnimalViewController.m in Sources */,
